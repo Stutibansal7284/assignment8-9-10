@@ -55,7 +55,7 @@ int main(){
         }
     }
     if(!found) {
-        cout<<"Book not found in the library.\n";
+        cout<<"Book not found in the library."<<endl;
     }
     return 0;
 }
