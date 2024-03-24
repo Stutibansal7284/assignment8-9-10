@@ -45,11 +45,11 @@ int main(){
     bool found=false;
     for(int i=0;i<5;i++) {
         if (books[i].isbn==search) {
-            cout<<"Book found:\n";
-            cout<<"Title: "<<books[i].title<<"\n";
-            cout<<"Author: "<<books[i].author<<"\n";
-            cout<<"Publisher: "<<books[i].publisher<<"\n";
-            cout<<"Year: "<<books[i].year<<"\n";
+            cout<<"Book found:"<<endl;
+            cout<<"Title: "<<books[i].title<<endl;
+            cout<<"Author: "<<books[i].author<<endl;
+            cout<<"Publisher: "<<books[i].publisher<<endl;
+            cout<<"Year: "<<books[i].year<<endl;
             found=true;
             break;
         }
